@@ -1,0 +1,14 @@
+[project]
+name = "ai-blog-generator"
+version = "0.1.0"
+description = "A multi-agent, parallelized technical blog generator built with LangGraph, Gemini, and Tavily."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    "langchain-tavily>=0.1.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
